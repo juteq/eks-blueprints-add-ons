@@ -24,7 +24,7 @@ calico:
 
 # AWS CloudWatch Metrics Values
 awsCloudWatchMetrics:
-  enable: false
+  enable: true
   createNamespace: true
   serviceAccountName:
 
