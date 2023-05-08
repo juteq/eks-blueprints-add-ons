@@ -24,25 +24,25 @@ calico:
 
 # AWS CloudWatch Metrics Values
 awsCloudWatchMetrics:
-  enable: true
+  enable: false
   createNamespace: true
   serviceAccountName:
 
 # AWS EFS CSI Driver Values
 awsEfsCsiDriver:
-  enable: true
+  enable: false
   serviceAccountName:
 
 # AWS for Fluent Bit Values
 awsForFluentBit:
-  enable: true
+  enable: false
   createNamespace: true
   logGroupName:
   serviceAccountName:
 
 # AWS Load Balancer Controller Values
 awsLoadBalancerController:
-  enable: true
+  enable: false
   createNamespace: true
   serviceAccountName:
   podDisruptionBudget:
@@ -86,7 +86,7 @@ certManagerCsiDriver:
 
 # Cluster Autoscaler Values
 clusterAutoscaler:
-  enable: true
+  enable: false
   serviceAccountName:
 
 # Datadog Operator
@@ -106,7 +106,7 @@ externalDns:
 
 # External Secrets Operator
 externalSecrets:
-  enable: true
+  enable: false
 
 # Gatekeeper Values
 gatekeeper:
@@ -116,12 +116,12 @@ gatekeeper:
 
 # Nginx Values
 ingressNginx:
-  enable: true
+  enable: false
   createNamespace: true
 
 # Grafana default Values
 grafana:
-  enable: true
+  enable: false
   serviceAccount:
     create: false
 
@@ -170,7 +170,7 @@ ondat:
 
 # Prometheus Values
 prometheus:
-  enable: true
+  enable: false
   createNamespace: true
   serviceAccountName:
   roleArn:
@@ -211,7 +211,7 @@ yunikorn:
 
 # Argo Rollout Values
 argoRollouts:
-  enable: true
+  enable: false
   createNamespace: true
 
 # Argo Rollout Values
